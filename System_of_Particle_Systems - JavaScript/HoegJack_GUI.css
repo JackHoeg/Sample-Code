@@ -1,0 +1,77 @@
+/*
+	HoegJack_GUI.css
+ 	by Jack Hoeg 
+	Last Edited: February 6, 2020
+*/
+
+/* Based on https://webglfundamentals.org/webgl/lessons/webgl-text-html.html */
+
+body {
+	margin: 0;
+}
+
+canvas {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+}
+
+p {
+	color: #DDDDDD;
+	margin: 0;
+	padding: 0;
+}
+
+
+#container {
+	position: relative;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	padding: 0.5em;
+}
+
+#upLeft {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#upRight {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	text-align: right;
+}
+
+#bottomLeft {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+#bottomRight {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+#center {
+	position: absolute;
+/* 	margin: 10%; */
+	top: 10%;
+	right: 10%;
+	left 10%;
+	bottom 10%;
+	width: 80%;
+	height: 80%;
+}
+
+#gui {
+	position: relative;
+	width: 100vw;
+	height:100vh;
+}
